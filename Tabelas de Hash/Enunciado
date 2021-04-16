@@ -1,0 +1,13 @@
+**Enunciado**
+Escreva um programa C++ que permita indexar números de telefone a partir de nomes, armazenando os dados numa tabela de hash.
+
+Requisitos funcionais:
+- Criar uma tabela de hash com o tamanho pretendido.
+- Adicionar nomes e respectivos números de telefone (um de cada vez).
+- Devolver o número de telefone correspondente a um nome e lançar uma excepção caso não exista.
+- Remover um número de telefone.
+- Fornecer o número total de contactos e o factor de carga da tabela.
+
+Requisitos não funcionais:
+- Utilize as 1ª e 6ª letras do nome para fazer a indexação e evite posições que nunca são utilizadas em tabelas de tamanho superior às 2 centenas.
+- Implemente a interface com o utilizador exclusivamente na função main.
